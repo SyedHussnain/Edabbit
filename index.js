@@ -448,6 +448,9 @@ function getMaxSkipFirst(x) {
 }
 console.log("Get Maximum with skip First Element = " + getMaxSkipFirst(ara11));
 
+
+let ara12 = [200, 100, 10, 20, 30, 40, 50, 60, 70, 80, 90];
+
 // Get Minimum Number with skip First element of Array
 function getMin(x) {
   let min = 100;
@@ -459,4 +462,27 @@ function getMin(x) {
   }
   return min;
 }
-console.log("Minimum Number = " + getMin(ara11));
+console.log("Minimum Number = " + getMin(ara12));
+
+let aeor = [10, 20, 30, 40, 50, 60, 70];
+for (let i = 0; i < aeor.length; i++) {
+  if (aeor[i] % 2 === 0) {
+    aeor.splice(1, 1);
+  }
+  
+}
+
+console.log(aeor);
+
+
+
+
+
+
+
+
+
+
+
+
+
